@@ -129,7 +129,7 @@ ENV/
 env.bak/
 venv.bak/
 
-media/images
+
 
 # Spyder project settings
 .spyderproject
