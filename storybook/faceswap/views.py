@@ -30,4 +30,4 @@ def display_hotel_images(request):
     if request.method == 'GET':
         # getting all the objects of hotel.
         Hotels = Hotel.objects.all()
-        return render(request, 'display_hotel_images.html',{'hotel_images': Hotels})
+        return render(request, 'display_hotel_images.html',{'hotel_images': Hotels}) 
